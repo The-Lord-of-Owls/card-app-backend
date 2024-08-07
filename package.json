@@ -1,0 +1,30 @@
+{
+	"name": "card-app-backend",
+	"version": "1.0.0",
+	"description": "A backend for card-app",
+	"main": "index.js",
+	"scripts": {
+		"dev": "nodemon index.js",
+		"start": "node index.js"
+	},
+	"author": "Lord of Owls",
+	"license": "ISC",
+	"dependencies": {
+		"@redis/json": "^1.0.6",
+		"axios": "^1.7.2",
+		"connect-redis": "^7.1.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"express-session": "^1.18.0",
+		"express-ws": "^5.0.2",
+		"mongoose": "^8.5.1",
+		"mysql2": "^3.11.0",
+		"redis": "^4.6.15",
+		"sequelize": "^6.37.3",
+		"uuid": "^10.0.0"
+	},
+	"devDependencies": {
+		"nodemon": "^3.1.4"
+	}
+}
