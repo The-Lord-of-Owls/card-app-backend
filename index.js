@@ -1,4 +1,5 @@
 'use strict';
+
 require( "dotenv" ).config()
 
 //Database connectors and express start function
